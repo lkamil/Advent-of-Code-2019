@@ -2,10 +2,10 @@
 Improving Haskell skills solving AoC riddles.
 
 ```
-		    *
+ 	*
        *+*
      *+ooo+*
-	  *+ooooo+* 
+    *+ooooo+* 
   *+ooooooooo+*
 *+ooooo*+*ooooo+*
        *+*
