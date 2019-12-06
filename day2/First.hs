@@ -19,7 +19,7 @@ run startIndex input = do
             operation <- evalOpcode n
             run (startIndex + 4) $ M.insert pos3 (operation arg1 arg2) input
 
-createMap = M.insert 2 2 $ M.insert 1 12 $ M.fromList $ zip [0..]
+createMap input = M.insert 2 2 $ M.insert 1 12 $ M.fromList $ zip [0..] input
 
 evalOpcode :: Int -> Maybe (Int -> Int -> Int)
 evalOpcode 1 = Just (+)
